@@ -22,5 +22,5 @@ test("One euro should be 1.206 dollars", function(){
 
 test("One yen should be 0.0062 pounds", function(){ 
     // hago mi comparacion (la prueba)
-    expect(fromYenToPound(3.5)).toBe(0.021); //1 yen son 0.006 pounds, entonces 3.5 yenes deberian ser = (3.5 * 0.006)
+    expect(fromYenToPound(3.5)).toBe(0.021); //1 yen son 0.006 libras esterlinas, entonces 3.5 yenes deberian ser = (3.5 * 0.006)
 })
